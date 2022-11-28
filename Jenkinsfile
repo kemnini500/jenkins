@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello friend from prod environment'
+                echo 'prod environment'
             }
         }
     }
