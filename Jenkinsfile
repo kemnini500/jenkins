@@ -8,5 +8,10 @@ pipeline {
                 echo 'Hello World'
             }
         }
+        stage ("Build") {
+            steps { 
+                echo 'Prepare and build'
+            }
+        }
     }
 }
